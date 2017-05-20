@@ -1,4 +1,6 @@
 #!/usr/bin/python
+import sys
 
-nombre="miguel"
+
+nombre=sys.argv[1]
 print 'hola %s' % (nombre)
